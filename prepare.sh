@@ -54,7 +54,7 @@ function prepare_project_scaffolding(){
     mkdir conf
     mkdir src
     mkdir logs
-    curl https://raw.githubusercontent.com/presslabs/gs-proxy/master/nginx.conf -o conf/nginx.conf
+    curl https://raw.githubusercontent.com/ichsanrp/nginx-gcloud-storage/master/conf/nginx.conf -o conf/nginx.conf
     if [[ "$OSTYPE" == "linux"* ]]; then
         ln -s /usr/local/openresty/site/lualib/ src
     elif [[ "$OSTYPE" == "darwin"* ]]; then

@@ -5,3 +5,4 @@ fastcgi_temp/*
 uwsgi_temp/*
 secret/*
 logs/*
+*.o
